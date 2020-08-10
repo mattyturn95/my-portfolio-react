@@ -24,6 +24,7 @@ import project9 from '../images/snakegame.png';
 import project10 from '../images/profileavatar.png';
 import project11 from '../images/travel.png';
 import project12 from '../images/quizz.png';
+import project13 from '../images/movie1.png';
 
 const useStyles = makeStyles({
     mainContainer: {
@@ -181,14 +182,43 @@ const Portfolio = () => {
                                     React Quiz App
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This site was built with React. 
+                                    This site was built with React.
                                 </Typography>
                             </CardContent>
                             <CardActions>
                                 <a href="https://quizz-app-react-app.herokuapp.com/" target="_blank" rel="noopener noreferrer" className={classes.navlink}><Button size="small" color="primary">
                                     Live Preview
                                 </Button></a>
-                                
+
+
+                            </CardActions>
+                        </CardActionArea>
+                    </Card>
+                </Grid>
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="project1"
+                                height="auto"
+                                image={project13}
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Movie Database / React
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    This site was built with react which makes use of the open Movie-database API. 
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <a href="https://movie-database-01.netlify.app/" target="_blank" rel="noopener noreferrer" className={classes.navlink}><Button size="small" color="primary">
+                                    Live Preview
+                                </Button></a>
+                                <a href="https://github.com/mattyturn95/movie-database-new" target="_blank" rel="noopener noreferrer" className={classes.navlink}><Button size="small" color="secondary">
+                                    Source Code
+                                </Button></a>
 
                             </CardActions>
                         </CardActionArea>
