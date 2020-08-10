@@ -60,7 +60,8 @@ const Portfolio = () => {
                                     Covid-19 Tracker App
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                    This site was built with React and made use of Material-ui as well as Axios and Chart-js.
+                                    The site fetches the data from an API called "https://covid19.mathdro.id/api". The user is able to relay the relevent data by clicking on the desired country and filter through the available options.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -89,7 +90,7 @@ const Portfolio = () => {
                                     Wordpress Portfolio
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                    This is my old portfolio which was built using Wordpress.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -117,7 +118,8 @@ const Portfolio = () => {
                                     React Portfolio
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                    This is my current portfolio which was built with React and a few other dependancies such as @material-ui, react-dom, react-particles
+                                    & react-scripts. It utilises components in order to switch from page to page whilst maintaining an easy user experience.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -125,7 +127,7 @@ const Portfolio = () => {
                                     Live Preview
                                 </Button></a>
                                 <a href="https://github.com/mattyturn95/my-portfolio-react" rel="noopener noreferrer" target="_blank" className={classes.navlink}><Button size="small" color="primary">
-                                    Live Preview
+                                    Source Code
                                 </Button></a>
 
 
@@ -149,7 +151,7 @@ const Portfolio = () => {
                                     The Hanger Boutqiue
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                A website for a local clothing store based in Waterford. The site is built using WordPress to allow the client to manage their own content (cms).
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -177,7 +179,7 @@ const Portfolio = () => {
                                     Weather App / React
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                    This site was built with react which makes use of the open weather API. one has to enter the city/town name as well as the regions abreviation there after.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -207,7 +209,7 @@ const Portfolio = () => {
                                     August Oak Tree
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                A simple website comprised of Html5 & Css3.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -237,7 +239,7 @@ const Portfolio = () => {
                                     Whiskey Drop Test Landing
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                    This site was built with Html5 & Css3. 
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -267,7 +269,7 @@ const Portfolio = () => {
                                     Hike Routes - Rate and insert your own
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                An app created using MySQL and Python to rate hiking trails and routes. It also allows a user to review their own personal favorite route.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -297,7 +299,7 @@ const Portfolio = () => {
                                     React Recipe App
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                    This App was built using React. It fetches the data from an open source API. Users can search for recipes and find out the methods behind the dish.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -325,7 +327,7 @@ const Portfolio = () => {
                                     Simple Snake Game
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imotLorem ipsum dolar immut lorem ipsum dolar imot
+                                    This Site/Game was built with Java-Script es6.
                                 </Typography>
                             </CardContent>
                             <CardActions>
