@@ -23,6 +23,7 @@ import project8 from '../images/myrecipe.png';
 import project9 from '../images/snakegame.png';
 import project10 from '../images/profileavatar.png';
 import project11 from '../images/travel.png';
+import project12 from '../images/quizz.png';
 
 const useStyles = makeStyles({
     mainContainer: {
@@ -166,6 +167,33 @@ const Portfolio = () => {
                     </Card>
                 </Grid>
                 {/* project-3 */}
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="project1"
+                                height="auto"
+                                image={project12}
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    React Quiz App
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    This site was built with React. 
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <a href="https://quizz-app-react-app.herokuapp.com/" target="_blank" rel="noopener noreferrer" className={classes.navlink}><Button size="small" color="primary">
+                                    Live Preview
+                                </Button></a>
+                                
+
+                            </CardActions>
+                        </CardActionArea>
+                    </Card>
+                </Grid>
                 <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
                         <CardActionArea>
