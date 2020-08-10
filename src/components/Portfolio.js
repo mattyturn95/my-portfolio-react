@@ -22,6 +22,7 @@ import project7 from '../images/portfolio.png';
 import project8 from '../images/myrecipe.png';
 import project9 from '../images/snakegame.png';
 import project10 from '../images/profileavatar.png';
+import project11 from '../images/travel.png';
 
 const useStyles = makeStyles({
     mainContainer: {
@@ -30,7 +31,7 @@ const useStyles = makeStyles({
     },
     cardContainer: {
         maxWidth: 345,
-        
+
         margin: "5rem auto"
     },
     a: {
@@ -151,7 +152,7 @@ const Portfolio = () => {
                                     The Hanger Boutqiue
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                A website for a local clothing store based in Waterford. The site is built using WordPress to allow the client to manage their own content (cms).
+                                    A website for a local clothing store based in Waterford. The site is built using WordPress to allow the client to manage their own content (cms).
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -209,7 +210,7 @@ const Portfolio = () => {
                                     August Oak Tree
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                A simple website comprised of Html5 & Css3.
+                                    A simple website comprised of Html5 & Css3.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -239,7 +240,7 @@ const Portfolio = () => {
                                     Whiskey Drop Test Landing
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This site was built with Html5 & Css3. 
+                                    This site was built with Html5 & Css3.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -269,7 +270,7 @@ const Portfolio = () => {
                                     Hike Routes - Rate and insert your own
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                An app created using MySQL and Python to rate hiking trails and routes. It also allows a user to review their own personal favorite route.
+                                    An app created using MySQL and Python to rate hiking trails and routes. It also allows a user to review their own personal favorite route.
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -342,6 +343,37 @@ const Portfolio = () => {
                         </CardActionArea>
                     </Card>
 
+                </Grid>
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="project2"
+                                height="auto"
+                                image={project11}
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Travel Site
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    The routeRep travel application uses the Google Maps and Places APIs to allow users to select a location and find places to visit, stay and dine. Users may then add these results to an itinerary. They may then continue to edit this itinerary to help plan their perfect trip.
+
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <a href="https://stiofaneimeid.github.io/travel-app/" target="_blank" rel="noopener noreferrer" className={classes.navlink}><Button size="small" color="primary">
+                                    Live Preview
+                                </Button></a>
+                                <a href="https://github.com/mattyturn95/travel-app" target="_blank" rel="noopener noreferrer" className={classes.navlink}><Button size="small" color="primary">
+                                    Source Code
+                                </Button></a>
+
+
+                            </CardActions>
+                        </CardActionArea>
+                    </Card>
                 </Grid>
             </Grid>
         </Box>

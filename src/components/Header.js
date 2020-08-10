@@ -9,6 +9,7 @@ import {
 import avatar from '../../src/images/profileavatar.png';
 
 import Typed from 'react-typed';
+import cv from '../cv/matthewturnercv.docx'
 
 // CSS STYLES
 
@@ -37,6 +38,11 @@ const useStyles = makeStyles(theme => ({
     headerLinkGithub: {
         color: 'tomato',
         textAlign: "center"
+    },
+    cvdownload: {
+        textDecoration: "none",
+        color: "tomato"
+
     }
 
 
@@ -62,6 +68,9 @@ const Header = () => {
                 <Typed strings={["HTML", "CSS", "PYTHON", "JAVA-SCRIPT", "DJANGO", "MYSQL", "LESS", "&", "SASS", "API'S", "REACT", "HEROKU", "GITHUB", "WORDPRESS"]} typeSpeed={50} backSpeed={60} loop />
             </Typography>
 
+            <Grid className={classes.cvdownload} container justify="center">
+            <a href={cv} className={classes.cvdownload} download>DOWNLOAD CV</a>
+            </Grid>
 
 
             {/* <Grid container justify="center">
