@@ -205,11 +205,33 @@ const Resume = () => {
                             Short Courses
                         </Typography>
                         <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
-                            - React the complete guide <br/>
-                            - Better way towards Less & Sass <br/>
-                            - 2020 Complete Python Bootcamp <br/>
+                            - React the complete guide <br />
+                            - Better way towards Less & Sass <br />
+                            - 2020 Complete Python Bootcamp <br />
                             - MongoDb The complete developers guide <br />
                         </Typography>
+
+                    </Box>
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2019-2020
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading}>
+                            Junior Web Developer
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+                            Babylon Radio Station - Dublin
+                        </Typography>
+                        <Typography variant="subtitle1" align="center" style={{ color: "tan" }}>
+                            As A Junior Web Developer I was Held responsible for the maintenance of the site and making sure that all aspects of elements and components were running effeciently throughout the companies site.
+                            Technologies used were the following --> <br />
+                            Java-Script <br />
+                            Html5 <br/>
+                            Css3 <br />
+                            PHP <br />
+                            Wordpress <br/>
+                        </Typography>
+
                     </Box>
                 </Box>
             </Box>
